@@ -1,5 +1,5 @@
 <?php
-require('config.local.php');
+require('config.inc.php');
 
 if (!isset($config['base_path']) || ($config['base_path'] == NULL)) {
   $config['base_path'] = dirname(__FILE__);
