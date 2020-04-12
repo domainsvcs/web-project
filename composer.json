@@ -1,0 +1,16 @@
+{
+    "name": "domainsvcs/web-project",
+    "description": "Web Project Boilerplate",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap-sass": "3.4.1",
+        "components/jquery": "3.*"
+    },
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Randall Box",
+            "email": "rb@domainsvcs.com"
+        }
+    ]
+}
