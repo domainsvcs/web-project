@@ -3,5 +3,4 @@ vendor/
 web/libraries/
 web/images/
 web/css/
-!web/css/readme.txt
 .sass-cache/
