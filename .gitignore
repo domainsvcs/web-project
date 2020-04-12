@@ -1,5 +1,5 @@
 vendor/
-web/libraries/
-web/images/
-web/css/
+web/libraries/*
+web/images/*
+web/css/style.css
 .sass-cache/
