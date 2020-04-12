@@ -26,3 +26,5 @@ I use the deprecated ruby-sass compiler on Debian. I recommend getting the curre
     composer update
 - Run Installer to copy files to web accessible folders and compile basic css:  
     sh ./install.sh
+- Execute SQL in db.sql in your chosen database.
+- Edit newly created config.inc.php with your database credentials.
