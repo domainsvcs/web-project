@@ -1,5 +1,7 @@
 vendor/
 web/libraries/*
 web/images/*
-web/css/style.css
+!web/images/readme.txt
+web/css/*
+!web/css/readme.txt
 .sass-cache/
