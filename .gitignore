@@ -1,8 +1,7 @@
 config.inc.php
 vendor/
-web/libraries/*
-web/images/*
-!web/images/readme.txt
-web/css/*
+web/libraries/
+web/images/
+web/css/
 !web/css/readme.txt
 .sass-cache/
