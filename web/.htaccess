@@ -32,11 +32,11 @@ AddEncoding gzip svgz
   RewriteRule "/\.|^\.(?!well-known/)" - [F]
 
   # Redirect to www/https
-  RewriteCond %{HTTP_HOST} .
-  RewriteCond %{HTTP_HOST} !^www\.
-  RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
-  RewriteCond %{HTTPS} !=on
-  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # RewriteCond %{HTTP_HOST} .
+  # RewriteCond %{HTTP_HOST} !^www\.
+  # RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+  # RewriteCond %{HTTPS} !=on
+  # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
   
   # Pass all requests not referring directly to files in the filesystem to
   # index.php.
