@@ -37,7 +37,7 @@ require_once('../common.inc.php');
     <div class="container">
       <div class="row">
         <div id="main" class="col-xs-12">
-        <--Main page content-->
+        <!--Main page content-->
         Ready.
         </div><!--col-->
       </div><!--row-->
